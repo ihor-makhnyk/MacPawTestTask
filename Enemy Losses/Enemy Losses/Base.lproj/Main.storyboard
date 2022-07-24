@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21179.7" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zbw-WS-GEc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21169.4"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--General-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="General" id="BYZ-38-t0r" customClass="ViewController" customModule="Enemy_Losses" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="top" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fKA-CT-rib">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="816"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="CM8-8P-7tc">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="816"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <viewLayoutGuide key="contentLayoutGuide" id="DLh-sb-G2n"/>
+                                        <viewLayoutGuide key="frameLayoutGuide" id="tv7-D0-VrJ"/>
+                                    </scrollView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="fKA-CT-rib" secondAttribute="bottom" constant="80" id="A4P-0K-etV"/>
+                            <constraint firstItem="fKA-CT-rib" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="R1K-AB-8q9"/>
+                            <constraint firstItem="fKA-CT-rib" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="orw-97-pAf"/>
+                            <constraint firstAttribute="trailing" secondItem="fKA-CT-rib" secondAttribute="trailing" id="qa1-iR-z9y"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="General Losses" image="doc.richtext.fill.he" catalog="system" id="ByL-nG-vCS"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="TheScrollView" destination="CM8-8P-7tc" id="bgM-v2-5GN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="586.95652173913049" y="-392.41071428571428"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Kuz-kV-Zs5">
+            <objects>
+                <tabBarController id="Zbw-WS-GEc" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="S0J-A7-aWg">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="aYf-J5-AfH"/>
+                        <segue destination="ddS-UT-Uud" kind="relationship" relationship="viewControllers" id="dFh-Zn-65M"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zwA-2s-IGb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1041" y="-1197"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="KIw-dS-ow8">
+            <objects>
+                <viewController title="Settings" id="ddS-UT-Uud" customClass="ViewSettings" customModule="Enemy_Losses" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="mjW-jw-xkY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="95X-Xe-bQn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" id="B4W-Dg-6V1" propertyAccessControl="localizable">
+                        <imageReference key="image" image="gear" catalog="system" symbolScale="large"/>
+                        <attributedString key="userComments">
+                            <fragment content="&quot;settings&quot;"/>
+                        </attributedString>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="MainView" destination="mjW-jw-xkY" id="Itk-0e-vaH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rA1-fN-Sug" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1453.6231884057972" y="-392.41071428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="doc.richtext.fill.he" catalog="system" width="115" height="128"/>
+        <image name="gear" catalog="system" width="128" height="122"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

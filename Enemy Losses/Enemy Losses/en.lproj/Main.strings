@@ -1,0 +1,12 @@
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "B4W-Dg-6V1"; Note = "\"settings\""; */
+"B4W-Dg-6V1.title" = "Settings";
+
+/* Class = "UIViewController"; title = "General"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "General";
+
+/* Class = "UITabBarItem"; title = "General Losses"; ObjectID = "ByL-nG-vCS"; */
+"ByL-nG-vCS.title" = "General Losses";
+
+/* Class = "UIViewController"; title = "Settings"; ObjectID = "ddS-UT-Uud"; */
+"ddS-UT-Uud.title" = "Settings";

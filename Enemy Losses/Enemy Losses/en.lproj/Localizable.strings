@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  Enemy Losses
+
+  Created by Ihor Makhnyk on 24.07.2022.
+  
+*/
+
+"app_name" = "Enemy Losses";
+"eliminated" = "Dead Personnel";
+"total" = "Total dead russians:";
+"settings" = "Settings";
+
+"day" = "Day ";
+"date" = "Date";
+
+"aircrafts" = "Aircrafts";
+"helicopters" = "Helicopters";
+"drones" = "Drones";
+"tanks" = "Tanks";
+"field artillery" = "Field Artillery";
+"millitary auto" = "Millitary Auto";
+"MRL" = "Missile Rocket Launchers";
+"APC" = "Armored Personnel Carriers";
+"fuel tank" = "Fuel Tanks";
+"naval ship" = "Naval Ships";
+"anti-aircraft warfare" = "Anti-Aircraft Warfare";
+"special equipment" = "Special Equipment";
+"mobile SRBM" = "Mobile SRBM";
+"cruise missiles" = "Cruise Missiles";
+"greatest losses direction" = "Greatest losses direction: ";
+
+"language" = "Language";
+"uk" = "Ukr 🇺🇦";
+"en" = "Eng 🇬🇧";
+
+"was no war" = "No war was here!";
+
+"sec_air" = "Air Forces";
+"sec_ground" = "Ground Forces";
+"sec_support" = "Support";
+
+"note" = "Author notes";
+"author_notes" = "
+    The application was created by Ihor Makhnyk as a test task for MacPaw Inc.
+    Partially localized to English and Ukrainian languages. Made in short time, big list of idea implementations are yet to come.
+                                       (C) Ihor Makhnyk
+";
