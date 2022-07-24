@@ -130,7 +130,7 @@ struct DayDetail: View {
                     //Military cars
                     if dataEquipment.military_auto != nil && dataEquipment.military_auto != 0 {
                         HStack(alignment: .center) {
-                            Label(NSLocalizedString("millitary auto", comment: ""), systemImage: "box.truck.fill")
+                            Label(NSLocalizedString("millitary auto", comment: ""), systemImage: "bus.fill")
                             Spacer()
                             VStack{
                                 Text("\(dataEquipment.military_auto!)")
@@ -181,7 +181,7 @@ struct DayDetail: View {
                         //Rocket launchers
                         if dataEquipment.MRL != nil && dataEquipment.MRL != 0 {
                             HStack(alignment: .center) {
-                                Label(NSLocalizedString("MRL", comment: ""), systemImage: "sprinkler.and.droplets.fill")
+                                Label(NSLocalizedString("MRL", comment: ""), systemImage: "circle.hexagonpath.fill")
                                 Spacer()
                                 VStack{
                                     Text("\(dataEquipment.MRL!)")

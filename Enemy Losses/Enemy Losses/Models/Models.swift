@@ -134,7 +134,7 @@ struct TheListView: View {
                     
                 }.cornerRadius(20)
                 Text("🇺🇦🇺🇦🇺🇦 Слава ЗСУ! 🇺🇦🇺🇦🇺🇦").font(.caption).padding(.bottom, 3).cornerRadius(50)
-            }.navigationTitle("app_name".localized(lang: _lang))
+            }.navigationTitle(NSLocalizedString("app_name", comment: ""))
         }.alert(isPresented: $showAlert) {
             Alert(
                         title: Text("Cannot load the data"),
@@ -148,18 +148,17 @@ struct TheListView: View {
 //MARK: - Date Formatter
 
 func datePicker(data: String) -> String {
-    @State var _lang = "en"
     
     let inputFormatter = DateFormatter()
     inputFormatter.dateFormat = "yyyy-MM-dd"
     let showDate = inputFormatter.date(from: data)!
     
-    if _lang == "en" {
-        inputFormatter.locale = Locale(identifier: _lang)
+    if Locale.current.identifier == "en" {
+        inputFormatter.locale = Locale(identifier: "en")
         inputFormatter.dateFormat = "MMMM d"
     }
     else {
-        inputFormatter.locale = Locale(identifier: _lang)
+        inputFormatter.locale = Locale(identifier: "uk")
         inputFormatter.dateFormat = "d MMMM"
     }
     let resultString = inputFormatter.string(from: showDate)
