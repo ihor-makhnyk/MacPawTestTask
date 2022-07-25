@@ -14,7 +14,7 @@ Created logo in Photoshop, though other images are iOS based system images.
 
 *On 26.07 made a minor fix: reversed list appearance, to see latest info first and commented out two yet useless lines of code in DateFormatter.*
 
-To Do list before publishing to App Store:
+**To Do list before publishing to App Store:**
 - Complete full localisation.
 - Optimise the app to support iPads.
 - Create notification alerts about new day data updates.
