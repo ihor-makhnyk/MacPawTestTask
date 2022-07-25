@@ -18,4 +18,4 @@ To Do list before publishing to App Store:
 - Improve Day Info Page appearance.
 - Create more customisable settings.
 - Complete error handling work.
-- Sort main list backwards and group it by month folders.
+- Group the main list by month folders.
