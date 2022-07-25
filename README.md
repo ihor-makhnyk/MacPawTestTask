@@ -1,11 +1,18 @@
 # MacPawTestTask
-Here is my Enemy Losses application. For more detailed info on it, check the presentation in repository.
+Here is my Enemy Losses application. For more visual preview, check the presentation in repository.
+Created logo in Photoshop, though other images are iOS based system images.
 
-*On 26.07 made a tiny update: reversed list appearance, to see latest info first and commented out two yet useless lines of code in DateFormatter.
+**Demonstrated technologies:**
+- SwiftUI
+- UIKit
+- Combining storyboards with SwiftUI views
+- MVVM
+- JSON parsing using URL Sessions
+- Simple algorithms
+- Localized srtings
+- Reusable models
 
-MIT
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*On 26.07 made a minor fix: reversed list appearance, to see latest info first and commented out two yet useless lines of code in DateFormatter.*
 
 To Do list before publishing to App Store:
 - Complete full localisation.
