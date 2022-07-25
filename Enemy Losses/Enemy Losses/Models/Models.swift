@@ -124,7 +124,7 @@ struct TheListView: View {
             VStack {
                 HStack{
                     Label(NSLocalizedString("total", comment: ""), systemImage: "person.3").frame(width: 250, alignment: .leading).padding(.leading, -30)
-                    Text("**≈  \(fetch.dataPersonnel.last?.personnel ?? 0)**").frame(width: 80).padding(.leading, 10)
+                    Text("**≈  \(fetch.dataPersonnel.first?.personnel ?? 0)**").frame(width: 80).padding(.leading, 10)
                 }.frame(height: 30, alignment: .topLeading).padding(.top, 4)
                 List {
                     ForEach(fetch.dataPersonnel) { dataPersonnel in NavigationLink( destination: DayDetail(page_id: dataPersonnel.id)) {
@@ -154,11 +154,11 @@ func datePicker(data: String) -> String {
     let showDate = inputFormatter.date(from: data)!
     
     if Locale.current.identifier == "en" {
-        inputFormatter.locale = Locale(identifier: "en")
+        //inputFormatter.locale = Locale(identifier: "en")
         inputFormatter.dateFormat = "MMMM d"
     }
     else {
-        inputFormatter.locale = Locale(identifier: "uk")
+        //inputFormatter.locale = Locale(identifier: "uk")
         inputFormatter.dateFormat = "d MMMM"
     }
     let resultString = inputFormatter.string(from: showDate)
