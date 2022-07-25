@@ -59,6 +59,7 @@ class FetchEquipment: ObservableObject {
                         self.dataEquipment.insert(DataEquipment.datEquip[0], at: 0)
                         self.dataEquipment.insert(DataEquipment.datEquip[1], at: 1)
                         self.dataEquipment.append(contentsOf: decodedData)
+                        self.dataPersonnel.reverse()
                     }
                 } else {
                     print("No data")
