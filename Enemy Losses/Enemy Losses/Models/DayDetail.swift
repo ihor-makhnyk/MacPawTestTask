@@ -31,7 +31,7 @@ struct DayDetail: View {
                     HStack(alignment: .center) {
                         Label(NSLocalizedString("eliminated", comment: ""), systemImage: "person.3")
                         Spacer()
-                        Text("**\(fetch1.dataPersonnel[page_id].personnel)**").padding(.trailing, 10).frame(alignment: .trailing)
+                        Text("**\(fetch1.dataPersonnel[fetch.dataEquipment.endIndex - page_id - 1].personnel)**").padding(.trailing, 10).frame(alignment: .trailing)
                     }.frame(maxWidth: .infinity, maxHeight: 40, alignment: .leading)
                     
                     //Losses direction
