@@ -27,4 +27,4 @@ Created logo in Photoshop, though other images are iOS based system images.
 - Complete error handling work.
 - Group the main list by month folders.
 
-[MIT LICENCE](https://github.com/IhorMakhnyk/MacPawTestTask/blob/main/LICENCE)
+[MIT LICENCE](https://github.com/IhorMakhnyk/MacPawTestTask/blob/main/LICENSE)
