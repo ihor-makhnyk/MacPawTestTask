@@ -8,6 +8,8 @@ Updated the project with following:
 - began the work on search (which is easy, but I still have some crashes though)
 - information on previous days in detailed info view
 
+Check out ENEMY-LOSSES V2
+
 
 Here is my Enemy Losses application. For more visual preview, check the presentation in repository.
 Created logo in Photoshop, though other images are iOS based system images.
