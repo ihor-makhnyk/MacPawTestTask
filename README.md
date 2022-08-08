@@ -8,6 +8,8 @@ Updated the project with following:
 - began the work on search (which is easy, but I still have some crashes though)
 - information on previous days in detailed info view
 
+There I also used such data passing technologies as: @State, @Binding, @Published, @ObservedObject, @ObservableObject
+
 Check out ENEMY-LOSSES V2 *PS: It may not be fully compatible in some cases with xCode 13 as it was coded for iOS 16 with beta version of xCode*
 
 
