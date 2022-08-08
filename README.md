@@ -1,4 +1,14 @@
 # MacPawTestTask
+
+**UPDATE!!!**
+Updated the project with following:
+- code simplification (without showing off that I know how to use hostingControllers)
+- full localisation with no need to restart the app
+- shadows and colors to the interface and general interface improvements
+- began the work on search (which is easy, but I still have some crashes though)
+- information on previous days in detailed info view
+
+
 Here is my Enemy Losses application. For more visual preview, check the presentation in repository.
 Created logo in Photoshop, though other images are iOS based system images.
 
@@ -26,5 +36,6 @@ Created logo in Photoshop, though other images are iOS based system images.
 - Create more customisable settings.
 - Complete error handling work.
 - Group the main list by month folders.
+- Make code on detailed view more reusable.
 
 [MIT LICENCE](https://github.com/IhorMakhnyk/MacPawTestTask/blob/main/LICENSE)
