@@ -8,7 +8,7 @@ Updated the project with following:
 - began the work on search (which is easy, but I still have some crashes though)
 - information on previous days in detailed info view
 
-Check out ENEMY-LOSSES V2
+Check out ENEMY-LOSSES V2 *PS: It may not be fully compatible in some cases with xCode 13 as it was coded for iOS 16 with beta version of xCode*
 
 
 Here is my Enemy Losses application. For more visual preview, check the presentation in repository.
